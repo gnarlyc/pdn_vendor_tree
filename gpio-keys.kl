@@ -1,0 +1,14 @@
+key 1    POWER    		WAKE
+key 5    VOLUME_UP
+key 4    VOLUME_DOWN
+key 61    MENU              WAKE_DROPPED
+key 42    CAMERA           
+key 34    BACK              WAKE_DROPPED
+key 57    DPAD_LEFT         WAKE_DROPPED
+key 49    DPAD_RIGHT        WAKE_DROPPED
+key 25    DPAD_UP           WAKE_DROPPED
+key 41    DPAD_DOWN         WAKE_DROPPED
+key 33    DPAD_CENTER       WAKE_DROPPED
+key 249   ENDCALL           WAKE_DROPPED
+key 250	  FOCUS	# Fake Focus
+key 26	  HOME		    WAKE_DROPPED

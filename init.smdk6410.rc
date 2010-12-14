@@ -1,0 +1,10 @@
+on boot
+#    setprop net.eth0.dns1 10.32.192.11
+#    setprop net.eth0.dns2 10.32.193.11
+    setprop ro.build.product smdk6410
+    setprop ro.product.device smdk6410
+    setprop ro.radio.noril yes
+
+service smdk6410-setup /system/etc/init.smdk6410.sh
+    oneshot
+
