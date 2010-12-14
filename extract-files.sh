@@ -22,9 +22,6 @@ mkdir -p ../../../vendor/$VENDOR/$DEVICE/proprietary
 
 # Pull needed standard libs
 adb pull /system/lib/libdvm.so ../../../vendor/$VENDOR/$DEVICE/proprietary
-adb pull /system/lib/libminfo.so ../../../vendor/$VENDOR/$DEVICE/proprietary
-adb pull /system/lib/libgtalk_jni.so ../../../vendor/$VENDOR/$DEVICE/proprietary
-adb pull /system/lib/libinterstitial.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 
 # Pull HW libs
 adb pull /system/lib/hw/copybit.smdk6410.so ../../../vendor/$VENDOR/$DEVICE/proprietary
@@ -47,7 +44,6 @@ adb pull /system/bin/iwpriv ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/bin/iwspy ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/bin/checkfile ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/bin/autobl ../../../vendor/$VENDOR/$DEVICE/proprietary
-adb pull /system/bin/ ../../../vendor/$VENDOR/$DEVICE/proprietary
 
 # Pull wifi files
 adb pull /system/etc/wifi/wpa_supplicant.conf ../../../vendor/$VENDOR/$DEVICE/proprietary
