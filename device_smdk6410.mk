@@ -9,11 +9,6 @@ PRODUCT_COPY_FILES += \
 
 # Place wifi files
 PRODUCT_COPY_FILES += \
-    device/pandigital/smdk6410/wifi/rt3070sta.ko:system/lib/hw/modules/rt3070sta.ko \
-    device/pandigital/smdk6410/wifi/rtnet3070sta.ko:system/lib/hw/modules/rtnet3070sta.ko \
-    device/pandigital/smdk6410/wifi/rtutil3070sta.ko:system/lib/hw/modules/rtutil3070sta.ko \
-    device/pandigital/smdk6410/wifi/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
-    device/pandigital/smdk6410/wifi/dhcpcd.conf:/system/etc/dhcpcd/dhcpcd.conf
 
 # Place permission files
 PRODUCT_COPY_FILES += \
