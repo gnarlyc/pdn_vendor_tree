@@ -17,7 +17,7 @@
 VENDOR=pandigital
 DEVICE=smdk6410
 
-rm -r ../../../vendor/$VENDOR/$DEVICE
+#rm -r ../../../vendor/$VENDOR/$DEVICE
 mkdir -p ../../../vendor/$VENDOR/$DEVICE/proprietary
 
 # Pull needed standard libs
