@@ -36,7 +36,7 @@ DEVICE=smdk6410
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \\
-    vendor/htc/__DEVICE__/proprietary/libdvm.so:system/lib/libdvm.so
+    vendor/pandigital/__DEVICE__/proprietary/libdvm.so:system/lib/libdvm.so
 
 # Standard blobs necessary for __DEVICE__
 PRODUCT_COPY_FILES += \\
@@ -44,8 +44,8 @@ PRODUCT_COPY_FILES += \\
 
 # __VENDOR__ blobs for __DEVICE__
 PRODUCT_COPY_FILES += \\
-	vendor/htc/__DEVICE__/proprietary/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \\
-	vendor/htc/__DEVICE__/proprietary/asound.conf:system/etc/asound.conf
+	vendor/pandigital/__DEVICE__/proprietary/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \\
+	vendor/pandigital/__DEVICE__/proprietary/asound.conf:system/etc/asound.conf
 
 # Framework files for __DEVICE__
 PRODUCT_COPY_FILES += \\
@@ -61,9 +61,9 @@ PRODUCT_COPY_FILES += \\
 
 # HW libs for __DEVICE__
 PRODUCT_COPY_FILES += \\
-	vendor/htc/__DEVICE__/proprietary/copybit.smdk6410.so:system/lib/hw/copybit.smdk6410.so \\
-    vendor/htc/__DEVICE__/proprietary/gralloc.smdk6410.so:system/lib/hw/gralloc.smdk6410.so \\
-	vendor/htc/__DEVICE__/proprietary/lights.smdk6410.so:system/lib/hw/lights.smdk6410.so
+    vendor/pandigital/__DEVICE__/proprietary/copybit.smdk6410.so:system/lib/hw/copybit.smdk6410.so \\
+    vendor/pandigital/__DEVICE__/proprietary/gralloc.smdk6410.so:system/lib/hw/gralloc.smdk6410.so \\
+    vendor/pandigital/__DEVICE__/proprietary/lights.smdk6410.so:system/lib/hw/lights.smdk6410.so
 
 # Keychar files for __DEVICE__
 PRODUCT_COPY_FILES += \\
@@ -71,22 +71,22 @@ PRODUCT_COPY_FILES += \\
 
 # bin files for __DEVICE__
 PRODUCT_COPY_FILES += \\
- 	vendor/htc/__DEVICE__/proprietary/dhcpcd.sh:system/bin/dhcpcd.sh \\
-	vendor/htc/__DEVICE__/proprietary/filecheck.sh:system/bin/filecheck.sh \\
-	vendor/htc/__DEVICE__/proprietary/loadWiFi.sh:system/bin/loadWiFi.sh \\
-	vendor/htc/__DEVICE__/proprietary/wpa_supplicant.sh :system/bin/wpa_supplicant.sh \\
-	vendor/htc/__DEVICE__/proprietary/liwconfig:system/bin/iwconfig \\
-	vendor/htc/__DEVICE__/proprietary/iwevent:system/bin/iwevent \\
-	vendor/htc/__DEVICE__/proprietary/iwgetid:system/bin/iwgetid \\
-	vendor/htc/__DEVICE__/proprietary/iwlist:system/bin/iwlist 
-	vendor/htc/__DEVICE__/proprietary/iwpriv:system/bin/iwpriv \\
-	vendor/htc/__DEVICE__/proprietary/iwspy:system/bin/iwspy \\
-	vendor/htc/__DEVICE__/proprietary/checkfile:system/bin/checkfile
+ 	vendor/pandigital/__DEVICE__/proprietary/dhcpcd.sh:system/bin/dhcpcd.sh \\
+	vendor/pandigital/__DEVICE__/proprietary/filecheck.sh:system/bin/filecheck.sh \\
+	vendor/pandigital/__DEVICE__/proprietary/loadWiFi.sh:system/bin/loadWiFi.sh \\
+	vendor/pandigital/__DEVICE__/proprietary/wpa_supplicant.sh :system/bin/wpa_supplicant.sh \\
+	vendor/pandigital/__DEVICE__/proprietary/liwconfig:system/bin/iwconfig \\
+	vendor/pandigital/__DEVICE__/proprietary/iwevent:system/bin/iwevent \\
+	vendor/pandigital/__DEVICE__/proprietary/iwgetid:system/bin/iwgetid \\
+	vendor/pandigital/__DEVICE__/proprietary/iwlist:system/bin/iwlist 
+	vendor/pandigital/__DEVICE__/proprietary/iwpriv:system/bin/iwpriv \\
+	vendor/pandigital/__DEVICE__/proprietary/iwspy:system/bin/iwspy \\
+	vendor/pandigital/__DEVICE__/proprietary/checkfile:system/bin/checkfile
 
 # wifi/bt files for __DEVICE__
 PRODUCT_COPY_FILES += \\
-	vendor/htc/__DEVICE__/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \\
-	vendor/htc/__DEVICE__/proprietary/RT2870STA.dat:system/etc/Wireless/RT2870STA/RT2870STA.dat
+	vendor/pandigital/__DEVICE__/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \\
+	vendor/pandigital/__DEVICE__/proprietary/RT2870STA.dat:system/etc/Wireless/RT2870STA/RT2870STA.dat
 
 # IME files
 PRODUCT_COPY_FILES += \\
