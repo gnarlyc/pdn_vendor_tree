@@ -17,11 +17,11 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 USE_CAMERA_STUB := true
 
 # Wifi related defines
-#BOARD_WPA_SUPPLICANT_DRIVER := WEXT
-#WPA_SUPPLICANT_VERSION      := VER_0_6_X
+BOARD_WPA_SUPPLICANT_DRIVER := WEXT
+WPA_SUPPLICANT_VERSION      := VER_0_6_X
 BOARD_WLAN_DEVICE           := ra0
 WIFI_DRIVER_MODULE_PATH     := "/system/lib/modules/rt3070sta.ko"
-#WIFI_DRIVER_MODULE_ARG      := "firmware_path=/system/lib/hw/wlan/fw_bcm4329.bin nvram_path=/proc/calibration"
+WIFI_DRIVER_MODULE_ARG      := "nvram_path=/proc/calibration"
 #WIFI_DRIVER_MODULE_NAME     := "dhd"
 
 BOARD_HAVE_BLUETOOTH := false
