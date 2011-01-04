@@ -22,6 +22,7 @@ mkdir -p ../../../vendor/$VENDOR/$DEVICE/proprietary
 
 # Pull needed standard libs
 adb pull /system/lib/libdvm.so ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/lib/libaudio.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 
 # Pull HW libs
 adb pull /system/lib/hw/copybit.smdk6410.so ../../../vendor/$VENDOR/$DEVICE/proprietary
@@ -72,9 +73,11 @@ adb pull /system/etc/asound.conf ../../../vendor/$VENDOR/$DEVICE/proprietary
 
 PRODUCT_COPY_FILES := \\
     vendor/pandigital/__DEVICE__/proprietary/libdvm.so:obj/lib/libdvm.so
+    vendor/pandigital/__DEVICE__/proprietary/libaudio.so:obj/lib/libaudio.so
 
 PRODUCT_COPY_FILES += \\
     vendor/pandigital/__DEVICE__/proprietary/libdvm.so:system/lib/libdvm.so \\
+    vendor/pandigital/__DEVICE__/proprietary/libaudio.so:system/lib/libaudio.so \\
     vendor/pandigital/__DEVICE__/proprietary/copybit.smdk6410.so:system/lib/hw/copybit.smdk6410.so \\
     vendor/pandigital/__DEVICE__/proprietary/gralloc.smdk6410.so:system/lib/hw/gralloc.smdk6410.so \\
     vendor/pandigital/__DEVICE__/proprietary/lights.smdk6410.so:system/lib/hw/lights.smdk6410.so \\
