@@ -36,11 +36,10 @@ DEVICE=smdk6410
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \\
-    vendor/pandigital/__DEVICE__/proprietary/libdvm.so:system/lib/libdvm.so
+    vendor/pandigital/__DEVICE__/proprietary/libaudio.so:system/lib/libaudio.so
 
 # Standard blobs necessary for __DEVICE__
 PRODUCT_COPY_FILES += \\
-        vendor/pandigital/__DEVICE__/proprietary/libdvm.so:system/lib/libdvm.so \\
         vendor/pandigital/__DEVICE__/proprietary/libaudio.so:system/lib/libaudio.so 
  
 
